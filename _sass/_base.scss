@@ -14,7 +14,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    font-family: Cambria, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
