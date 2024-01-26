@@ -75,10 +75,8 @@ li {
   margin-bottom: 0px; /* Adjust as needed */
 }
 
-/* Ensure the Twitter icon is inline with the text */
-li a.twitter-link {
+.twitter-link {
   display: inline-block;
-  vertical-align: middle;
   margin-left: 10px; /* Adjust as needed */
 }
 
