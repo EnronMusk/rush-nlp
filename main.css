@@ -60,19 +60,27 @@ figure > img {
 
 figcaption {
   font-size: 14px; }
-
 /**
  * Lists
  */
 ul, ol {
-    margin-left: 30px;
+  margin-left: 30px;
+  list-style-position: outside; /* Ensures list item markers are outside the box */
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+li > ul,
+li > ol {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.twitter-link {
+  display: inline-block;
+  margin-left: 10px; /* Adjust as needed */
 }
 
 /**
