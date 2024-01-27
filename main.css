@@ -37,8 +37,8 @@ body {
 
 .horizontal-line {
   border-top: 1px solid #000; /* Set the border color and style */
-  width: 80%; /* Set the width of the line as a percentage */
-  margin: 0 auto; /* Center the line within the body */
+  width: 100%; /* Set the width of the line as a percentage */
+  margin: 20px; /* Center the line within the body */
 }
 
 /**
