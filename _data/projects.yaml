@@ -2,7 +2,7 @@ projects:
     - link: https://github.com/EnronMusk/multi_implicit_cot
       title: Multi-Implicit Chain of Thought Reasoning via Knowledge Distillation
       authors: Luke Rivard
-      abstract: I referenced a paper that used Implicit chain of thought reasoning to speed up inference of gpt-2. I expanded upon it by allowing the model to perform simtaneous 2x2 inference using the same knowledge distillation process.
+      abstract: I expanded upon a published paper by allowing the model to perform simtaneous 2x2 inference using the same knowledge distillation process all packaged up in a nice and easy to use notebook.
       image: /images/implicit_cot_large_cropped_2x.gif
     - link: https://github.com/EnronMusk/MyRepo/tree/main/ReviewGPT
       title: ChatGPT vs Keyword Machine Learning
@@ -12,5 +12,5 @@ projects:
     - link: https://github.com/EnronMusk/2me3project
       title: Zoomerified Java Code Compiler
       authors: Luke Rivard
-      abstract: This is just a stupid project I did for a course. I created a emulated compiler for Java that takes in "Zoomer" Java structured code and parses,compiles and runs its translated java program.
+      abstract: This is just a stupid project I did for a course. I created a Java program that emulates a compiler. The emulated compiler takes in "Zoomerfied" Java structured code and parses, compiles and runs its translated java program.
       image: /images/emoji.png
