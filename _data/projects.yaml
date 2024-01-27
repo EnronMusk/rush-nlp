@@ -12,5 +12,5 @@ projects:
     - link: https://github.com/EnronMusk/2me3project
       title: Zoomerified Java Code Compiler
       authors: Luke Rivard
-      abstract: This is just a stupid project I did for a course. I created a Java program that emulates a compiler. The emulated compiler takes in "Zoomerfied" Java structured code and parses, compiles and runs its translated java program.
+      abstract: This is just a silly project I did for a course. I created a Java program that emulates a compiler. The emulated compiler takes in "Zoomerfied" Java structured code and parses, compiles and runs its translated java program.
       image: /images/emoji.png
