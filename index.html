@@ -28,18 +28,18 @@ show: 1
 
 
 
-<p style="font-size: 16px">
+<p>
 I am a determined student studying Math and Computer Science at McMaster University. Simultaneously, I am also nearly a professionally credentialed P&C Actuary (insurance engineer) with 6/7 exams 
 fullfilled for associateship with the CAS. I also have minors in finance and economics, and enjoy them both. Right now is a very exciting time for ML/AI with the advent of AI for everyone via ChatGPT. 
 In the mist of the excitement I have identified one key area I wish to study, which is communication between LLM's. I have subdivided this topic into two key areas I may study in the future:
     
 </p>
-<ul style="font-size: 16px">
+<ul>
     <li><strong>Communication for multi-modal models:</strong> Can we make a central model, consisting of several distinct modal models to learn multi-modal tasks via communication.</li>
     <li><strong>Knowledge Communication:</strong> Can we utilize GPT models like ChatGPT in combination with other specialized models to solve more complex tasks using communication. Or could we use GPT models to assist in training multi-modal models using communication.</li>
 </ul>
 
-<p style="font-size: 16px">
+<p>
 I also enjoy bbq/smoking at home and am a huge AMD fan/investor in their <a href="https://www.amd.com/en/partner/articles/ai-ready-solutions.html">pursuit to make AI open and available to everyone.</a>
 </p>
 
@@ -154,16 +154,14 @@ I plan to hire multiple PhD/MS students at UWaterloo, home to 5 NLP professors! 
 <!-->
 
 <table>
-{% for project in site.data.projects %}
-
-  <tr><td style="padding:10px">
-      <a><img width="300" style="min-width:100px" src="{{project.image}}" alt=""></a>
-
-</td><td style="padding:10px; font-size: 16px">
+{% for project in site.data.projects.projects %}
+  <tr><td style="padding:10px;width:200px;">
+{% if project.image %}<a class="paper" href="{{project.link}}"><img width="200px" src="{{project.image}}"> </a>{% endif %}
+</td><td style="padding:10px">
+<a class="paper" href="{{project.link}}">
 {{project.title}}
-<br>
+</a><br>
 {{project.abstract}}<br>
-
 <br>
 
 </td></tr>
