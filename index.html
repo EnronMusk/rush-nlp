@@ -119,20 +119,20 @@ I plan to hire multiple PhD/MS students at UWaterloo, home to 5 NLP professors! 
 <h4>Selected Projects</h4>
 
 <table>
-{% for paper in site.data.papers.notable %}
+{% for project in site.data.projects %}
 
   <tr><td style="padding:10px">
-      {% if paper.image %}
-      <a href="{{paper.pdf}}"><img width="300" style="min-width:100px" src="{{paper.image}}" alt=""></a>
+      {% if project.image %}
+      <a href="{{project.pdf}}"><img width="300" style="min-width:100px" src="{{project.image}}" alt=""></a>
       {% else %}
-      <a href="{{paper.pdf}}"><img height="75" style="min-width:100px" src="https://avatar.tobi.sh/{{paper.title}}" alt=""></a>
+      <a href="{{project.pdf}}"><img height="75" style="min-width:100px" src="https://avatar.tobi.sh/{{project.title}}" alt=""></a>
 
       {% endif %}
 </td><td style="padding:10px; font-size: 16px">
 <a class="paper" href="{{paper.pdf}}">
-{{paper.title}}
+{{projects.title}}
 </a><br>
-{{paper.authors}}.<br>
+{{projects.authors}}.<br>
 {{paper.conference}} <br>
 
 <br>
