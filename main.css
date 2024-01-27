@@ -34,6 +34,13 @@ body {
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
 
+
+.horizontal-line {
+  border-top: 1px solid #000; /* Set the border color and style */
+  width: 80%; /* Set the width of the line as a percentage */
+  margin: 0 auto; /* Center the line within the body */
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
