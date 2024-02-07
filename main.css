@@ -10,7 +10,7 @@ dl, dd, ol, ul, figure {
 @font-face {
   font-family: 'Cambria';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 1 400;
   font-display: swap;
   src: url(https://fonts.gstatic.com/l/font?kit=GFDqWAB9jnWLT-HIK7ILrg&skey=d4699178559bc4b0&v=v18) format('woff2'),
        url(https://fonts.gstatic.com/l/font?kit=GFDqWAB9jnWLT-HIK7ILrg&skey=d4699178559bc4b0&v=v18) format('woff'),
