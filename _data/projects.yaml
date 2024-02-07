@@ -2,7 +2,7 @@ projects:
     - link: https://github.com/EnronMusk/multi_implicit_cot
       title: Multi-Implicit Chain of Thought Reasoning via Knowledge Distillation
       authors: Luke Rivard
-      abstract: I expanded upon a paper by training the LLM to perform simtaneous 2x2 inference using the same knowledge distillation process all packaged up in a nice and easy to use notebook.
+      abstract: I expanded upon a paper by training the LLM to perform simultaneous 2x2 inference using the same knowledge distillation process all packaged up in a nice and easy to use notebook.
       image: /images/implicit_cot_large_cropped_2x.gif
     - link: https://github.com/EnronMusk/MyRepo/tree/main/ReviewGPT
       title: ChatGPT vs Keyword Machine Learning
