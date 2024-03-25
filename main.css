@@ -267,9 +267,10 @@ pre code {
   margin-left: 0; }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  display: flex;
+  justify-content: center;
   color: #828282;
-  margin-left: -15px; }
+  font-size: 15px; }
 
 .footer-col {
   float: left;
