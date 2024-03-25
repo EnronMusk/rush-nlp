@@ -106,6 +106,7 @@ pre code {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
 }
 
 .footer-heading {
@@ -122,7 +123,7 @@ pre code {
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    justify-content: center;
     @extend %clearfix;
 }
 
@@ -132,19 +133,11 @@ pre code {
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
+.footer-col-1,
+.footer-col-2,
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+  flex: 1; /* Make each column equally spaced */
+  max-width: 33.33%; /* Set maximum width for each column */
 }
 
 @include media-query($on-laptop) {
