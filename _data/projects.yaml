@@ -2,7 +2,7 @@ projects:
     - link: https://github.com/EnronMusk/MorseLLM
       title: Morse Code Transformer
       authors: Luke Rivard
-      abstract: I implemented the transformer architecture and all supporting functions from scratch only using pytorch. I trained two LLMs, one on english characters and another on morse encoded english characters. I found that increasing the context length proportionally lead to identical performance between the morse code and english LLM.
+      abstract: I implemented the transformer architecture from scratch. I trained two LLMs, one on english characters and another on morse encoded english characters. I found that increasing the context length proportionally lead to identical performance between the morse code and english LLM.
       image: /images/transformer.PNG
     - link: https://github.com/EnronMusk/multi_implicit_cot
       title: Multi-Implicit Chain of Thought Reasoning via Knowledge Distillation
