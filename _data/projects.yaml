@@ -12,7 +12,7 @@ projects:
     - link: https://github.com/EnronMusk/MyRepo/tree/main/ReviewGPT
       title: ChatGPT vs Keyword Machine Learning
       authors: Luke Rivard
-      abstract: I trained a NN and XGBoost model to predict amazon review scores based on the description. The results pointed out that ChatGPT really understands context, not just keywords by offering much better positive/negative review prediction. It was disapointing at predicting the exact score.
+      abstract: I trained a NN and GBM to predict amazon review scores from keywords and compared to ChatGPT using the openAI API. The results demonstrated that ChatGPT understands context by significantly outperforming traditional keyword models in binary score prediction.
       image: /images/openai.png
     - link: https://github.com/EnronMusk/2me3project
       title: Zoomerified Java Code Compiler
