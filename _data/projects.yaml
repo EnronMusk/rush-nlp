@@ -10,9 +10,9 @@ projects:
       abstract: I expanded upon a paper by training the LLM to perform simultaneous 2x2 inference using the same knowledge distillation process all packaged up in a nice and easy to use notebook.
       image: /images/implicit_cot_large_cropped_2x.gif
     - link: https://github.com/EnronMusk/MyRepo/tree/main/ReviewGPT
-      title: ChatGPT vs Keyword Machine Learning
+      title: ChatGPT vs Supervised ML
       authors: Luke Rivard
-      abstract: I trained a NN and GBM to predict amazon review scores from keywords and compared to ChatGPT using the openAI API. The results demonstrated that ChatGPT understands context by significantly outperforming traditional keyword models in binary score prediction.
+      abstract: I trained a NN, RNN and GBM to predict amazon review scores from keywords and compared to ChatGPT using the openAI API. The results demonstrated that ChatGPT understands context by significantly outperforming traditional keyword models in binary score prediction.
       image: /images/openai.png
     - link: https://github.com/EnronMusk/2me3project
       title: Zoomerified Java Code Compiler
