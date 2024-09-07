@@ -155,8 +155,8 @@ pre {
   max-width: calc(900px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 30px;
+  padding-left: 30px; }
   @media screen and (max-width: 900px) {
     .wrapper {
       max-width: -webkit-calc(900px - (30px));
@@ -271,7 +271,7 @@ pre code {
 
 .footer-col-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   color: #828282;
   font-size: 15px; }
 
