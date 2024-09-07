@@ -273,7 +273,9 @@ pre code {
   display: flex;
   justify-content: center;
   color: #828282;
-  font-size: 15px; }
+  font-size: 15px;
+  gap: 10px; /* Added gap to reduce space between columns */
+}
 
 .footer-col {
   text-align: center;
