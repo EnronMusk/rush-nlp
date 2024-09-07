@@ -7,10 +7,11 @@
 
 # Site settings
 title: luke-rivard.com
-email: rivardj@mcmaster.ca
+email: jlrivard@uwaterloo.ca
 description:  # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://luke-rivard.com/" # the base hostname & protocol for your site
+twitter_username: lukerivard
 github_username: enronmusk
 
 # Build settings
