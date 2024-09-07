@@ -285,7 +285,7 @@ pre code {
 .footer-col-2,
 .footer-col-3 {
   flex: 1; /* Make each column equally spaced */
-  max-width: 33.33%; /* Set maximum width for each column */
+  max-width: 20%; /* Set maximum width for each column */
 }
 
 @media screen and (max-width: 900px) {
