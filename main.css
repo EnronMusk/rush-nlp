@@ -255,7 +255,7 @@ pre code {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
+  padding: 15px 0;
   text-align: center;}
 
 .footer-heading {
@@ -274,14 +274,11 @@ pre code {
   justify-content: center;
   color: #828282;
   font-size: 15px;
-  gap: 10px; /* Added gap to reduce space between columns */
 }
 
 .footer-col {
   text-align: center;
   margin-bottom: 15px;
-  padding-left: 5px; /* Reduced padding between columns */
-  padding-right: 5px; /* Added padding for symmetry */
 }
 
 .footer-col-1,
