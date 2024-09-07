@@ -278,7 +278,9 @@ pre code {
 .footer-col {
   text-align: center;
   margin-bottom: 15px;
-  padding-left: 0px; }
+  padding-left: 5px; /* Reduced padding between columns */
+  padding-right: 5px; /* Added padding for symmetry */
+}
 
 .footer-col-1,
 .footer-col-2,
