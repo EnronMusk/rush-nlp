@@ -257,11 +257,6 @@ pre code {
   border-top: 1px solid #e8e8e8;
   padding: 15px 0;
   text-align: center;
-  display: flex; /* Activate flexbox layout */
-  justify-content: center; /* Center contents horizontally */
-  align-items: center; /* Center contents vertically if needed */
-  flex-direction: column; /* Optional: stack items vertically if desired */
-  text-align: center; /* Center text within the columns */
 }
 
 .footer-heading {
