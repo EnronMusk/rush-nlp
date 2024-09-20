@@ -272,10 +272,14 @@ pre code {
 }
 
 .footer-col-wrapper {
-  justify-content: center;
+  display: flex; 
+  justify-content: center; 
   color: #828282;
   font-size: 15px;
+  align-items: center; 
+  gap: 20px; /* Adjust the value for desired spacing */
 }
+
 
 .footer-col {
   text-align: center;
