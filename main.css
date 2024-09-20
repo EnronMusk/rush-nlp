@@ -275,14 +275,15 @@ pre code {
   color: #828282;
   font-size: 15px;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  display: inline;
+  text-align: center;
 }
 
 
 .footer-col {
   text-align: center;
   margin-bottom: 15px;
+  float: none;
 }
 
 .footer-col-1,
