@@ -150,10 +150,11 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
-.username {
-    display: inline;
-    vertical-align: middle; /* Align with the icon */
+.icon-container {
+    display: flex;
+    align-items: center;
 }
+
 
 /**
  * Site header
