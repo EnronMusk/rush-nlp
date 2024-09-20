@@ -275,6 +275,8 @@ pre code {
   color: #828282;
   font-size: 15px;
   text-align: center;
+  display: inline;
+  text-align: center;
 }
 
 
