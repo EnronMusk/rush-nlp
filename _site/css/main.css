@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Cambria", Cambria, Helvetica, sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -74,7 +74,7 @@ a {
   text-decoration: none; }
   a:hover {
     color: #111;
-    text-decoration: bold; }
+    text-decoration: underline; }
 
 a.inline {
   color: black;
@@ -122,8 +122,8 @@ pre {
   max-width: calc(900px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px; }
+  padding-right: 30px;
+  padding-left: 30px; }
   @media screen and (max-width: 900px) {
     .wrapper {
       max-width: -webkit-calc(900px - (30px));
@@ -267,8 +267,8 @@ pre code {
 @media screen and (max-width: 700px) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (45px / 2));
-    width: calc(100% - (45px / 2)); } }
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
 /**
  * Page content
  */
