@@ -133,13 +133,6 @@ pre code {
     padding-left: $spacing-unit / 2;
 }
 
-.footer-col-1,
-.footer-col-2,
-.footer-col-3 {
-  flex: 1; /* Make each column equally spaced */
-  max-width: 33.33%; /* Set maximum width for each column */
-}
-
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
