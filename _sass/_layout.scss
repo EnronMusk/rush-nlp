@@ -106,7 +106,6 @@ pre code {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    text-align: center;
 }
 
 .footer-heading {
@@ -117,13 +116,13 @@ pre code {
 .contact-list,
 .social-media-list {
     list-style: none;
-    margin-left: 15;
+    margin-left: 0;
 }
 
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    justify-content: center;
+    margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
@@ -160,6 +159,7 @@ pre code {
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
+
 @include media-query($on-palm) {
     .footer-col {
         float: none;
