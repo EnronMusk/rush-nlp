@@ -272,7 +272,6 @@ pre code {
 }
 
 .footer-col-wrapper {
-  display: flex;
   justify-content: center;
   color: #828282;
   font-size: 15px;
