@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: Cambria;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -95,15 +95,15 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-.site-nav a {
-  color: $text-color; 
-  text-decoration: none; /* Remove the default underline */
-  font-weight: normal; /* Set the default font weight */
-  transition: font-weight 0.3s ease; /* Add a smooth transition effect for font weight */
-}
+a {
+    color: $brand-color;
+    text-decoration: none;
 
-.site-nav a:hover {
-  font-weight: bold;
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
 }
 
 a.inline {
@@ -211,4 +211,3 @@ pre {
         }
     }
 }
-
