@@ -1,7 +1,7 @@
 notable: 
 papers:
-  - title: "Table-to-Text: A Large-Scale Dataset for Table-Based Text Generation"
-    authors: "Qingyu Yin, Wentau Yih, and Scott Wen-tau Yih"
-    conference: "ICDAR 2019"
-    pdf: "/papers/Deng2019ICDAR.pdf"
-    image: "/images/ICDAR19_table.png"
+  - title: "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models "
+    authors: "Luke Rivard, Sun Sun, Hongyu Guo, Wenhu Chen, Yuntian Deng."
+    conference: "In Submission"
+    pdf: "/papers/2507.08800v1.pdf"
+    image: "/images/l1.gif"
