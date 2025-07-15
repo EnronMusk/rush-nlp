@@ -118,6 +118,7 @@ I plan to hire multiple PhD/MS students at UWaterloo, home to 5 NLP professors! 
 </ul>
 </p-->
 
+{% comment %}
 <!--h7>
 <h4>Selected Projects</h4>
 
@@ -166,18 +167,19 @@ I plan to hire multiple PhD/MS students at UWaterloo, home to 5 NLP professors! 
 </a><br>
 {{project.abstract}}<br>
 <br> -->
+{% endcomment %}
 
 <h3><b>Selected Papers</b></h3>
 
 <table>
-{% for project in site.data.papers.papers %}
+{% for paper in site.data.papers.papers %}
   <tr><td style="padding:10px;width:200px;">
 {% if project.image %}<a class="paper" href="{{project.pdf}}"><img width="200px" src="{{paper.image}}"> </a>{% endif %}
 </td><td style="padding:10px">
 <a class="paper" href="{{paper.pdf}}">
-{{project.title}}
+{{paper.title}}
 </a><br>
-{{project.abstract}}<br>
+{{paper.abstract}}<br>
 <br>
 
 </td></tr>
