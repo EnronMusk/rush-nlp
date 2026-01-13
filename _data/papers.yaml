@@ -5,7 +5,7 @@ papers:
     conference: "In Submission"
     pdf: "/papers/2507.08800v1.pdf"
     image: "/images/1l.gif"
-  - title: "Chat Annotator"
+  - title: "Chat Annotator: Fixing model errors with fine-grained feedback"
     authors: "Luke Rivard, Yuntian Deng"
     conference: ""
     pdf: "https://chatannotator.com/"
