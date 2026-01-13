@@ -2,7 +2,7 @@ projects:
     - link: https://chatannotator.com/
       title: Chat Annotator
       authors: Luke Rivard
-      abstract: Public chatbot powered by Cohere Command-A allowing users to annotate text spans and prompt the model with feedback.
+      abstract: Public chatbot UI powered by Cohere Command-A model, allowing users to annotate text spans and prompt the model with the fine-grained feedback.
       image: /images/chatannot.gif
     - link: https://github.com/EnronMusk/multi_implicit_cot
       title: Multi-Implicit Chain of Thought Reasoning via Knowledge Distillation
