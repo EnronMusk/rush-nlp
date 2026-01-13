@@ -4,16 +4,16 @@ projects:
       authors: Luke Rivard
       abstract: Public chatbot powered by Cohere Command-A allowing users to annotate text spans and prompt the model with feedback.
       image: /images/chatannot.gif
-    - link: https://github.com/EnronMusk/MorseLLM
-      title: Morse Code Transformer
-      authors: Luke Rivard
-      abstract: I implemented the transformer architecture from scratch. I trained two LLMs, one on english characters and another on morse encoded english characters. I found that increasing ONLY the context length proportionally yielded similar performance between the morse code and english LLM.
-      image: /images/transformer.PNG
     - link: https://github.com/EnronMusk/multi_implicit_cot
       title: Multi-Implicit Chain of Thought Reasoning via Knowledge Distillation
       authors: Luke Rivard
       abstract: I expanded upon a paper by training the LLM to perform simultaneous 2x2 inference using the same knowledge distillation process all packaged up in a nice and easy to use notebook.
       image: /images/implicit_cot_large_cropped_2x.gif
+    - link: https://github.com/EnronMusk/MorseLLM
+      title: Morse Code Transformer
+      authors: Luke Rivard
+      abstract: I implemented the transformer architecture from scratch. I trained two LLMs, one on english characters and another on morse encoded english characters. I found that increasing ONLY the context length proportionally yielded similar performance between the morse code and english LLM.
+      image: /images/transformer.PNG
     - link: https://github.com/EnronMusk/MyRepo/tree/main/ReviewGPT
       title: ChatGPT vs Keyword ML
       authors: Luke Rivard
