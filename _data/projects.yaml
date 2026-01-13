@@ -1,4 +1,9 @@
 projects:
+    - link: https://chatannotator.com/
+      title: Chat Annotator
+      authors: Luke Rivard
+      abstract: Public chatbot powered by Cohere Command-A allowing users to annotate text spans and prompt the model with feedback.
+      image: /images/chatannot.gif
     - link: https://github.com/EnronMusk/MorseLLM
       title: Morse Code Transformer
       authors: Luke Rivard
