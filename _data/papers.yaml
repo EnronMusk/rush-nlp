@@ -2,7 +2,7 @@ notable:
 papers:
   - title: "NeuralOS: Towards Simulating Operating Systems via Neural Generative Models "
     authors: "Luke Rivard, Sun Sun, Hongyu Guo, Wenhu Chen, Yuntian Deng"
-    conference: "In Submission"
+    conference: "ICLR 2026"
     pdf: "/papers/2507.08800v1.pdf"
     image: "/images/1l.gif"
   - title: "Chat Annotator: Fixing model errors with fine-grained feedback"
