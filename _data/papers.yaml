@@ -4,7 +4,7 @@ papers:
     authors: "Luke Rivard, Sun Sun, Hongyu Guo, Wenhu Chen, Yuntian Deng"
     conference: "ICLR 2026"
     pdf: "/papers/2507.08800v1.pdf"
-    image: "/images/neuralos-ezgif.com-video-to-gif-converter.gif"
+    image: "/images/l2.gif"
   - title: "Chat Annotator: Fixing model errors with fine-grained feedback"
     authors: "Luke Rivard, Yuntian Deng"
     conference: ""
